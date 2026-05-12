@@ -1,0 +1,19 @@
+providers:
+  - openai:gpt-4.1-mini
+
+prompts:
+  - file://prompt.txt
+
+tests: file://qa_tests.csv
+
+defaultTest:
+  assert:
+    - type: llm-rubric
+      value: |
+        Avalie a resposta do modelo para a pergunta.
+        A resposta deve:
+        - Estar em português
+        - Explicar corretamente o conceito perguntado
+        - Ser simples e didática
+        - Ter até 5 frases
+        Responda apenas PASS ou FAIL.
