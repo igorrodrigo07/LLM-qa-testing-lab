@@ -3,6 +3,7 @@
 Projeto prático de **Prompt Engineering + LLM Evaluation** usando **Promptfoo** e **OpenAI API**.
 
 Este projeto simula um fluxo real de QA para aplicações com IA, automatizando a validação de respostas de LLM usando testes e critérios objetivos.
+
 ---
 
 ## 📌 Objetivo
@@ -70,7 +71,7 @@ Resultado esperado:![Resultado Promptfoo](./screenshot.png)
 
 ### Exemplo de execução
 
-![Resultado Promptfoo](./Resultado LLM.png)
+![Resultado Promptfoo](Resultado LLM.png)
 
 👨‍💻 Autor
 
