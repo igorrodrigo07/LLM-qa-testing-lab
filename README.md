@@ -71,7 +71,7 @@ Resultado esperado:![Resultado Promptfoo](https://raw.githubusercontent.com/igor
 
 ### Exemplo de execução
 
-![Resultado Promptfoo](Resultado LLM.png)
+![Resultado Promptfoo](https://raw.githubusercontent.com/igorrodrigo07/LLM-qa-testing-lab/refs/heads/main/print-resultados.png)
 
 👨‍💻 Autor
 
