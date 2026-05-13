@@ -61,7 +61,7 @@ OPENAI_API_KEY=sua_chave_aqui
 6️⃣ Executar os testes de prompts
 promptfoo eval
 
-Resultado esperado:![Resultado Promptfoo](https://raw.githubusercontent.com/igorrodrigo07/LLM-qa-testing-lab/refs/heads/main/print-resultados.png)
+Resultado esperado:
 
 ✓ 10 passed (100%)
 0 failed
@@ -71,7 +71,9 @@ Resultado esperado:![Resultado Promptfoo](https://raw.githubusercontent.com/igor
 
 ### Exemplo de execução
 
-![Resultado Promptfoo](https://raw.githubusercontent.com/igorrodrigo07/LLM-qa-testing-lab/refs/heads/main/print-resultados.png)
+[🔍 Ver imagem em tamanho completo](print-resultados.png)
+
+![Resultados](print-resultados.png)
 
 👨‍💻 Autor
 
