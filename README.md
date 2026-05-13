@@ -2,8 +2,7 @@
 
 Projeto prático de **Prompt Engineering + LLM Evaluation** usando **Promptfoo** e **OpenAI API**.
 
-Este projeto simula testes de qualidade em respostas de IA, algo cada vez mais pedido em vagas de QA moderno.
-
+Este projeto simula um fluxo real de QA para aplicações com IA, automatizando a validação de respostas de LLM usando testes e critérios objetivos.
 ---
 
 ## 📌 Objetivo
@@ -24,6 +23,15 @@ Avaliar automaticamente respostas de um LLM verificando se:
 - OpenAI API
 - CSV test cases
 - Git & GitHub
+
+---
+
+## 📁 Estrutura do projeto
+
+promptfooconfig.yaml → configuração dos testes  
+prompt.txt → prompt avaliado  
+qa_tests.csv → casos de teste  
+.env → chave da OpenAI (não versionado)
 
 ---
 
@@ -52,11 +60,17 @@ OPENAI_API_KEY=sua_chave_aqui
 6️⃣ Executar os testes de prompts
 promptfoo eval
 
-Resultado esperado:
+Resultado esperado:![Resultado Promptfoo](./screenshot.png)
 
 ✓ 10 passed (100%)
 0 failed
 0 errors
+
+---
+
+### Exemplo de execução
+
+![Resultado Promptfoo](./Resultado LLM.png)
 
 👨‍💻 Autor
 
