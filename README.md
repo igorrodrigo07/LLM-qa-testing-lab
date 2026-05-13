@@ -1,51 +1,33 @@
-🧪 LLM QA Testing Lab (Prompt Evaluation com Promptfoo)
+# 🤖 QA Assistant – LLM Prompt Testing Lab
 
-Projeto criado para demonstrar prática real de QA aplicado a IA/LLMs, utilizando avaliação automatizada de prompts com a ferramenta Promptfoo.
+Projeto prático de **Prompt Engineering + LLM Evaluation** usando **Promptfoo** e **OpenAI API**.
 
-Aqui simulamos um cenário real de validação de um AI Assistant de QA, criando testes automatizados que verificam se o modelo responde conforme esperado.
+Este projeto simula testes de qualidade em respostas de IA, algo cada vez mais pedido em vagas de QA moderno.
 
-🎯 Objetivo do projeto
+---
 
-Este projeto demonstra na prática:
+## 📌 Objetivo
 
-Criação de prompts para LLM
-Testes automatizados de respostas de IA
-Uso de datasets (CSV) como massa de teste
-Avaliação automática com assertions
-Organização de projeto real para portfólio QA + IA
-🗂️ Estrutura do projeto
-LLM-qa-testing-lab
-│
-├── promptfooconfig.yaml   # Configuração do Promptfoo
-├── prompt.txt             # Prompt base do assistente de QA
-├── qa_tests.csv           # Massa de testes
-├── .env                   # Variáveis de ambiente (não versionado)
-└── README.md
-🤖 Prompt testado
+Avaliar automaticamente respostas de um LLM verificando se:
 
-O projeto valida um assistente de QA que deve:
+- responde em português
+- explica de forma simples e didática
+- mantém respostas curtas
+- fornece exemplos práticos
 
-Responder em português
-Explicar de forma simples e didática
-Evitar respostas longas
-Dar exemplos práticos
-🧪 O que está sendo testado?
+---
 
-Cada linha do qa_tests.csv contém:
+## 🧠 Tecnologias utilizadas
 
-pergunta → entrada enviada ao modelo
-esperado_conter → palavra/frase que deve existir na resposta
+- Node.js
+- Promptfoo
+- OpenAI API
+- CSV test cases
+- Git & GitHub
 
-O Promptfoo executa automaticamente os testes e valida as respostas.
+---
 
-Exemplo de regra de validação:
-
-assert:
-  - type: contains
-    value: "{{esperado_conter}}"
-🚀 Como executar o projeto
-
-Siga o passo a passo abaixo para rodar a avaliação de prompts localmente.
+## ▶️ Como executar o projeto
 
 1️⃣ Clonar o repositório
 git clone https://github.com/igorrodrigo07/LLM-qa-testing-lab.git
@@ -75,13 +57,6 @@ Resultado esperado:
 ✓ 10 passed (100%)
 0 failed
 0 errors
-📊 Exemplo de execução
-
-O Promptfoo mostra quantos testes passaram/falharam, tempo de execução e consumo de tokens.
-
-Este projeto atingiu:
-
-✓ 10 passed (100%)
 
 👨‍💻 Autor
 
