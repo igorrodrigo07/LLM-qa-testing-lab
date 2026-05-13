@@ -73,7 +73,6 @@ Resultado esperado:
 
 [🔍 Ver imagem em tamanho completo](print-resultados.png)
 
-![Resultados](print-resultados.png)
 
 👨‍💻 Autor
 
